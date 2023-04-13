@@ -19,6 +19,7 @@ function calculate() {
     screen.value = "";
     return;
   }
+  
   var result = eval(screenValue);
   screen.value = result;
 }
